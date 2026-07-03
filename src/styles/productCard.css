@@ -1,0 +1,18 @@
+.card-producto{
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.card-producto h3{
+    color: #00796B;
+    margin-bottom: 15px;
+}
+
+.card-producto p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}

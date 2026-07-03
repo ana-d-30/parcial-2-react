@@ -1,6 +1,27 @@
+import productos from "../data/productos.json";
+import ProductCard from "../components/ProductCard";
+import "../styles/productos.css";
+
 const Productos = () => {
     return (
-        <h1>Productos</h1>
+        <section>
+
+            <h1 className="titulo-productos">
+                Productos
+            </h1>
+
+            <div className="productos">
+
+                {productos.map((producto) => (
+                    <ProductCard
+                        key={producto.id}
+                        producto={producto}
+                    />
+                ))}
+
+            </div>
+
+        </section>
     );
 }
 

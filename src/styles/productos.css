@@ -1,0 +1,10 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo-productos{
+    text-align: center;
+    margin: 30px;
+}
