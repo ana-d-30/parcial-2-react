@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ácido Clorhídrico (37%)",
+        "categoria": "Reactivos Ácidos y Básicos",
+        "descripcion": "Reactivo químico de alta pureza para análisis e industria. Requiere permisos especiales de portación y utilización para su compra.",
+        "precio": 12000,
+        "stock": 18,
+        "estado": "Disponible",
+        "requierePermiso": true,
+        "imagen": "acido-clorhidrico.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Hidróxido de Sodio",
+        "categoria": "Reactivos Ácidos y Básicos",
+        "descripcion": "Soda cáustica grado reactivo para preparación de soluciones alcalinas. De uso comercial libre, manipular con equipo de protección.",
+        "precio": 8500,
+        "stock": 25,
+        "estado": "Disponible",
+        "requierePermiso": false,
+        "imagen": "hidroxido-sodio.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Ácido Acético",
+        "categoria": "Reactivos Ácidos y Básicos",
+        "descripcion": "Reactivo utilizado para análisis químicos y preparación de soluciones.",
+        "precio": 9700,
+        "stock": 10,
+        "estado": "Bajo stock",
+        "requierePermiso": false,
+        "imagen": "acido-acetico.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Acetona",
+        "categoria": "Solventes",
+        "descripcion": "Solvente de uso frecuente para limpieza de materiales y procedimientos de laboratorio.",
+        "precio": 7600,
+        "stock": 20,
+        "estado": "Disponible",
+        "requierePermiso": false,
+        "imagen": "acetona.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Etanol 96%",
+        "categoria": "Solventes",
+        "descripcion": "Alcohol etílico utilizado como solvente y desinfectante en entornos de laboratorio.",
+        "precio": 6900,
+        "stock": 35,
+        "estado": "Disponible",
+        "requierePermiso": false,
+        "imagen": "etanol.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Matraz Erlenmeyer de Vidrio 250ml",
+        "categoria": "Vidrios y Materiales",
+        "descripcion": "Hecho de vidrio de borosilicato de alta resistencia térmica. Producto de uso comercial libre para laboratorios y escuelas.",
+        "precio": 4500,
+        "stock": 50,
+        "estado": "Disponible",
+        "requierePermiso": false,
+        "imagen": "matraz-erlenmeyer-250.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Pipeta Graduada de Vidrio 10ml",
+        "categoria": "Vidrios y Materiales",
+        "descripcion": "Pipeta de precisión con graduación clara para medición de líquidos.",
+        "precio": 3200,
+        "stock": 30,
+        "estado": "Disponible",
+        "requierePermiso": false,
+        "imagen": "pipeta-graduada-10.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Vaso de Precipitados 500ml",
+        "categoria": "Vidrios y Materiales",
+        "descripcion": "Recipiente de vidrio utilizado para mezclar, calentar y preparar soluciones.",
+        "precio": 3800,
+        "stock": 40,
+        "estado": "Disponible",
+        "requierePermiso": false,
+        "imagen": "vaso-precipitados-500.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Micropipeta 100-1000ul",
+        "categoria": "Instrumental",
+        "descripcion": "Instrumento de precisión para medición y transferencia de pequeños volúmenes.",
+        "precio": 45000,
+        "stock": 8,
+        "estado": "Bajo stock",
+        "requierePermiso": false,
+        "imagen": "micropipeta.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Balanza Analítica",
+        "categoria": "Equipamiento",
+        "descripcion": "Equipo de medición de alta precisión para pesaje de muestras en laboratorio.",
+        "precio": 180000,
+        "stock": 4,
+        "estado": "Bajo stock",
+        "requierePermiso": false,
+        "imagen": "balanza-analitica.jpg"
+    }
+]
