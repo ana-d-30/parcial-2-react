@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -14,9 +15,15 @@ import Footer from "./components/Footer";
 
 
 const App = () => {
+
+    const [usuarioLogueado, setUsuarioLogueado] = useState(null);
+
     return (
         <>
-            <Navbar />
+            <Navbar
+                usuarioLogueado={usuarioLogueado}
+                setUsuarioLogueado={setUsuarioLogueado}
+            />
 
             <main>
                 <Routes>
@@ -25,7 +32,16 @@ const App = () => {
                     <Route path="/productos/:id" element={<DetalleProducto />} />
                     <Route path="/categorias" element={<Categorias />} />
                     <Route path="/nosotros" element={<Nosotros />} />
-                    <Route path="/login" element={<Login />} />
+
+                    <Route
+                        path="/login"
+                        element={
+                            <Login
+                                setUsuarioLogueado={setUsuarioLogueado}
+                            />
+                        }
+                    />
+
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>

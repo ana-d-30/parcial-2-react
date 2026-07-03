@@ -25,3 +25,18 @@ nav ul li a{
 nav ul li a:hover{
     color: #B2DFDB;
 }
+
+
+.btn-logout{
+    background-color: white;
+    color: #00796B;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-logout:hover{
+    background-color: #B2DFDB;
+}

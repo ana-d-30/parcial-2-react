@@ -1,0 +1,29 @@
+.titulo-categorias{
+    text-align: center;
+    margin: 30px;
+    color: #00796B;
+}
+
+.contenedor-categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-categoria{
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.card-categoria h3{
+    color: #00796B;
+    margin-bottom: 15px;
+}
+
+.card-categoria p{
+    margin-bottom: 10px;
+}

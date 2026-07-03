@@ -2,7 +2,7 @@ import { useState } from "react";
 import usuarios from "../data/usuarios";
 import "../styles/login.css";
 
-const Login = () => {
+const Login = ({ setUsuarioLogueado }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [mensaje, setMensaje] = useState("");
@@ -20,7 +20,8 @@ const Login = () => {
         );
 
         if(usuarioEncontrado){
-            setMensaje("Bienvenido: " + usuarioEncontrado.rol);
+            setUsuarioLogueado(usuarioEncontrado);
+            setMensaje("Sesión iniciada como: " + usuarioEncontrado.rol);
         }else{
             setMensaje("Email o contraseña incorrectos");
         }

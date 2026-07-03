@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nombre": "Reactivos Ácidos y Básicos",
+        "descripcion": "Reactivos químicos utilizados para análisis, preparación de soluciones y procesos de laboratorio."
+    },
+    {
+        "id": 2,
+        "nombre": "Solventes",
+        "descripcion": "Líquidos utilizados para disolver sustancias, limpieza de materiales y procedimientos químicos."
+    },
+    {
+        "id": 3,
+        "nombre": "Vidrios y Materiales",
+        "descripcion": "Materiales de vidrio y elementos básicos para medición, mezcla y preparación de muestras."
+    },
+    {
+        "id": 4,
+        "nombre": "Instrumental",
+        "descripcion": "Instrumentos de precisión utilizados para medir, transferir o manipular muestras."
+    },
+    {
+        "id": 5,
+        "nombre": "Equipamiento",
+        "descripcion": "Equipos de laboratorio utilizados para mediciones, análisis y procesos técnicos."
+    }
+]
