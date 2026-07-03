@@ -1,0 +1,18 @@
+.detalle-producto{
+    width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.detalle-producto h1{
+    color: #00796B;
+    margin-bottom: 20px;
+}
+
+.detalle-producto p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}

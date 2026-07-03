@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/productCard.css";
 
 const ProductCard = ({ producto }) => {
@@ -10,8 +11,6 @@ const ProductCard = ({ producto }) => {
                 <strong>Categoría:</strong> {producto.categoria}
             </p>
 
-            <p>{producto.descripcion}</p>
-
             <p>
                 <strong>Precio:</strong> ${producto.precio}
             </p>
@@ -20,14 +19,11 @@ const ProductCard = ({ producto }) => {
                 <strong>Stock:</strong> {producto.stock}
             </p>
 
-            <p>
-                <strong>Estado:</strong> {producto.estado}
-            </p>
-
-            <p>
-                <strong>Permiso:</strong>{" "}
-                {producto.requierePermiso ? "Sí" : "No"}
-            </p>
+            <Link to={`/productos/${producto.id}`}>
+                <button className="btn-detalle">
+                    Ver detalle
+                </button>
+            </Link>
 
         </div>
     );
