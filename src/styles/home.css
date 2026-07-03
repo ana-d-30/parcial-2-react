@@ -1,0 +1,44 @@
+.home{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.home h1{
+    font-size: 42px;
+    color: #00796B;
+    margin-bottom: 20px;
+}
+
+.home h2{
+    margin-bottom: 20px;
+    color: #212121;
+}
+
+.home p{
+    width: 70%;
+    margin: auto;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.botones-home{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.botones-home button{
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botones-home button:hover{
+    background-color: #00796B;
+}
