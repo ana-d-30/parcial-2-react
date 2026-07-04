@@ -1,0 +1,63 @@
+.form-producto{
+    width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.form-producto h2{
+    text-align: center;
+    color: #00796B;
+    margin-bottom: 20px;
+}
+
+.form-producto form div{
+    margin-bottom: 15px;
+}
+
+.form-producto label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-producto input,
+.form-producto select,
+.form-producto textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
+
+.form-producto textarea{
+    height: 80px;
+}
+
+.form-producto button{
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-producto button:hover{
+    background-color: #00796B;
+}
+
+.check-permiso input{
+    width: auto;
+    margin-right: 8px;
+}
+
+.form-producto p{
+    color: #c62828;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}

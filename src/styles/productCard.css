@@ -32,3 +32,27 @@
 .btn-detalle:hover{
     background-color: #00796B;
 }
+
+
+.botones-admin{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.botones-admin button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-editar{
+    background-color: #7C4DFF;
+}
+
+.btn-eliminar{
+    background-color: #c62828;
+}

@@ -1,10 +1,7 @@
 import { useParams } from "react-router-dom";
-import productos from "../data/productos.json";
-
 import "../styles/detalleProducto.css";
 
-const DetalleProducto = () => {
-
+const DetalleProducto = ({ productos }) => {
     const { id } = useParams();
 
     const producto = productos.find(
@@ -17,34 +14,14 @@ const DetalleProducto = () => {
 
     return (
         <section className="detalle-producto">
-
             <h1>{producto.nombre}</h1>
 
-            <p>
-                <strong>Categoría:</strong> {producto.categoria}
-            </p>
-
-            <p>
-                <strong>Descripción:</strong> {producto.descripcion}
-            </p>
-
-            <p>
-                <strong>Precio:</strong> ${producto.precio}
-            </p>
-
-            <p>
-                <strong>Stock:</strong> {producto.stock}
-            </p>
-
-            <p>
-                <strong>Estado:</strong> {producto.estado}
-            </p>
-
-            <p>
-                <strong>Requiere permiso:</strong>{" "}
-                {producto.requierePermiso ? "Sí" : "No"}
-            </p>
-
+            <p><strong>Categoría:</strong> {producto.categoria}</p>
+            <p><strong>Descripción:</strong> {producto.descripcion}</p>
+            <p><strong>Precio:</strong> ${producto.precio}</p>
+            <p><strong>Stock:</strong> {producto.stock}</p>
+            <p><strong>Estado:</strong> {producto.estado}</p>
+            <p><strong>Requiere permiso:</strong> {producto.requierePermiso ? "Sí" : "No"}</p>
         </section>
     );
 }
